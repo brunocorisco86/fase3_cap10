@@ -1,0 +1,181 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="66A29006-D9A4-1589-9369-B5A7C7781905" name="tb_mda_producao">
+<createdBy>Fabio</createdBy>
+<createdTime>2024-11-13 15:17:38 UTC</createdTime>
+<generatorID>32F18FBF-3E70-D83B-A3AC-050655EC6C27</generatorID>
+<ownerDesignName>modelo_agro</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cd_producao" id="26754FF1-AE6A-C737-DDE8-8C29DB891427">
+<createdBy>Fabio</createdBy>
+<createdTime>2024-11-13 15:17:38 UTC</createdTime>
+<generatorID>6601587C-6840-D725-860E-ECC2A5AA049A</generatorID>
+<ownerDesignName>modelo_agro</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cd_etapa_producao" id="6C8E02F6-D7CD-2707-7189-CBB0AB59155F">
+<createdBy>Fabio</createdBy>
+<createdTime>2024-11-13 15:17:38 UTC</createdTime>
+<generatorID>F4E59FAA-57D7-CFDF-0A7A-F24423E875B9</generatorID>
+<ownerDesignName>modelo_agro</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="14B837F6-63D8-5811-D22C-4B5CEDC3DC01" referredColumn="C47D98C0-01E0-F671-6976-EFFE66C18049"/>
+</associations>
+</Column>
+<Column name="cd_cultura" id="C91A587F-7835-FE29-01E5-084013C2D02D">
+<createdBy>Fabio</createdBy>
+<createdTime>2024-11-13 15:17:38 UTC</createdTime>
+<generatorID>3C2F6F4D-FB14-0B54-B9FA-B5CAA333CC70</generatorID>
+<ownerDesignName>modelo_agro</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="277F1519-C2E0-5588-34EF-282013E1AAF5" referredColumn="5EF1C7F4-1242-133E-CB60-97AA00C941BC"/>
+</associations>
+</Column>
+<Column name="cd_uf" id="122778C4-F6FC-CE9E-FD19-CEBF9655F429">
+<createdBy>Fabio</createdBy>
+<createdTime>2024-11-13 15:17:38 UTC</createdTime>
+<generatorID>980857CE-6933-279B-1807-78DAFB6CA50E</generatorID>
+<ownerDesignName>modelo_agro</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="28374A2B-CBF5-1E9F-D6ED-06A2571AAB91" referredColumn="C1C23F83-7643-1958-AC0D-A960376005DE"/>
+</associations>
+</Column>
+<Column name="cd_ano" id="3E895752-CB1F-6A46-1195-9FDF5F3D58AE">
+<createdBy>Fabio</createdBy>
+<createdTime>2024-11-13 15:17:38 UTC</createdTime>
+<generatorID>F4D5C8B4-DE22-21A7-4B54-F39E07CB46A6</generatorID>
+<ownerDesignName>modelo_agro</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7C1552F7-8A38-CBFE-9CB9-6108492E65FB" referredColumn="FA2C6D56-3BD0-B5A4-A3C0-D295F2D1533A"/>
+</associations>
+</Column>
+<Column name="cd_unidade_medida" id="C3CE24BA-F539-1915-110C-F6FAE00E22B4">
+<createdBy>Fabio</createdBy>
+<createdTime>2024-11-13 15:17:38 UTC</createdTime>
+<generatorID>D2082D26-A814-9408-51C6-D17B7B825216</generatorID>
+<ownerDesignName>modelo_agro</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FBDAA0F4-8E35-2E9C-200F-5653DA2ED5AA" referredColumn="F96AC709-8A4F-201B-29F5-C4E3F8969C5A"/>
+</associations>
+</Column>
+<Column name="vl_producao" id="B747E7DA-D5DF-F271-4FA1-FF829F456A06">
+<createdBy>Fabio</createdBy>
+<createdTime>2024-11-13 15:17:38 UTC</createdTime>
+<generatorID>4E48F211-D58C-56CC-1FC7-6174515011A0</generatorID>
+<ownerDesignName>modelo_agro</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>18</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,18,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="AEDF4AB4-5F93-0DF7-54EE-1E8BEA3A862A" name="tb_mda_producao_PK">
+<createdBy>Fabio</createdBy>
+<createdTime>2024-11-13 15:17:38 UTC</createdTime>
+<generatorID>43A2EAD5-611A-A1CB-BF7E-34674960440B</generatorID>
+<ownerDesignName>modelo_agro</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="26754FF1-AE6A-C737-DDE8-8C29DB891427"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6C3B0B77-1864-4B70-8B34-004E016F8185" name="tb_mda_producao_t_mda_calendario_FK">
+<createdBy>Fabio</createdBy>
+<createdTime>2024-11-13 15:17:38 UTC</createdTime>
+<generatorID>9AE89307-A3F0-C535-7521-75D20FCAC2C0</generatorID>
+<ownerDesignName>modelo_agro</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3E895752-CB1F-6A46-1195-9FDF5F3D58AE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0FE79525-2C4F-71EC-80D8-2155014FFE9C" name="tb_mda_producao_t_mda_cultura_FK">
+<createdBy>Fabio</createdBy>
+<createdTime>2024-11-13 15:17:38 UTC</createdTime>
+<generatorID>2705B2BB-8266-25B4-BABD-9F8920580D23</generatorID>
+<ownerDesignName>modelo_agro</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C91A587F-7835-FE29-01E5-084013C2D02D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E3F58AC1-0878-8961-6A48-F00D860E3EDA" name="tb_mda_producao_t_mda_etapa_producao_FK">
+<createdBy>Fabio</createdBy>
+<createdTime>2024-11-13 15:17:38 UTC</createdTime>
+<generatorID>4DFE195C-F4F9-6189-D9FC-CBF14D24AD23</generatorID>
+<ownerDesignName>modelo_agro</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6C8E02F6-D7CD-2707-7189-CBB0AB59155F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="81140F42-E39A-7018-892F-EAFDAA37321E" name="tb_mda_producao_t_mda_unidade_federacao_FK">
+<createdBy>Fabio</createdBy>
+<createdTime>2024-11-13 15:17:38 UTC</createdTime>
+<generatorID>D34F77BE-2850-65B1-16FB-A546D0282B39</generatorID>
+<ownerDesignName>modelo_agro</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="122778C4-F6FC-CE9E-FD19-CEBF9655F429"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="621B2576-F82C-538C-3722-4659B43ADF18" name="tb_mda_producao_t_mda_unidade_medida_FK">
+<createdBy>Fabio</createdBy>
+<createdTime>2024-11-13 15:17:38 UTC</createdTime>
+<generatorID>9B882988-F398-95DB-1910-B8F60F686575</generatorID>
+<ownerDesignName>modelo_agro</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C3CE24BA-F539-1915-110C-F6FAE00E22B4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

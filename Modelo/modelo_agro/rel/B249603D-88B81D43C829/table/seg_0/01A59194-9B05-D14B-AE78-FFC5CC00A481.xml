@@ -1,0 +1,89 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="01A59194-9B05-D14B-AE78-FFC5CC00A481" name="t_mda_unidade_federacao">
+<createdBy>Fabio</createdBy>
+<createdTime>2024-11-13 15:17:38 UTC</createdTime>
+<generatorID>252A68D6-92EE-2EB8-FCEE-803D0B06E359</generatorID>
+<ownerDesignName>modelo_agro</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cd_uf" id="C1C23F83-7643-1958-AC0D-A960376005DE">
+<createdBy>Fabio</createdBy>
+<createdTime>2024-11-13 15:17:38 UTC</createdTime>
+<generatorID>5AFE0A83-7590-E403-819F-419B9A67DB31</generatorID>
+<ownerDesignName>modelo_agro</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cd_regiao" id="66EF7268-675A-1DC3-E152-8623476D1C20">
+<createdBy>Fabio</createdBy>
+<createdTime>2024-11-13 15:17:38 UTC</createdTime>
+<generatorID>DC7BDBCC-DDB6-DB36-E357-CF6AB674F864</generatorID>
+<ownerDesignName>modelo_agro</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="18027FF2-8937-F86D-D997-154827D7A24C" referredColumn="C583E029-A663-2B44-A008-73F3EAE08D29"/>
+</associations>
+</Column>
+<Column name="sg_uf" id="87EFA73A-16D6-046F-32B7-92F91BE092FC">
+<createdBy>Fabio</createdBy>
+<createdTime>2024-11-13 15:17:38 UTC</createdTime>
+<generatorID>A674F35E-6EE4-D585-D940-FCE4C2B40898</generatorID>
+<ownerDesignName>modelo_agro</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>2</dataTypeSize>
+<ownDataTypeParameters>2,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ds_uf" id="49AFF076-BD91-001C-3D90-BF838D5E6372">
+<createdBy>Fabio</createdBy>
+<createdTime>2024-11-13 15:17:38 UTC</createdTime>
+<generatorID>DB89DEF9-8925-51CF-FC09-5CE6A38FD1F7</generatorID>
+<ownerDesignName>modelo_agro</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F481952F-44B2-DFF6-6C9A-C9C4683FDCD9" name="t_mda_unidade_federacao_PK">
+<createdBy>Fabio</createdBy>
+<createdTime>2024-11-13 15:17:38 UTC</createdTime>
+<generatorID>3E3928F9-1B5B-BCFE-2B3B-D6179BC5AE8F</generatorID>
+<ownerDesignName>modelo_agro</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C1C23F83-7643-1958-AC0D-A960376005DE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1EBC8695-4090-4FD7-153F-2D2CB2A6450F" name="t_mda_unidade_federacao_t_mda_regiao_FK">
+<createdBy>Fabio</createdBy>
+<createdTime>2024-11-13 15:17:38 UTC</createdTime>
+<generatorID>1376B624-E5F6-4F47-8362-884161A78C0C</generatorID>
+<ownerDesignName>modelo_agro</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="66EF7268-675A-1DC3-E152-8623476D1C20"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

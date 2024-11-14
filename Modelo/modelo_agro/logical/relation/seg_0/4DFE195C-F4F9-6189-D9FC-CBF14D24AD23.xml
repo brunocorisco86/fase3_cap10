@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="t_mda_etapa_producao_t_mda_producao" directorySegmentName="seg_0" id="4DFE195C-F4F9-6189-D9FC-CBF14D24AD23">
+<createdBy>Fabio</createdBy>
+<createdTime>2024-11-13 14:26:17 UTC</createdTime>
+<ownerDesignName>modelo_agro</ownerDesignName>
+<engineerTo>
+<item key="CF40CE21-C775-5DCE-0DDA-EE919511222F" value="true"/>
+</engineerTo>
+<sourcePk>7A734FA5-2F11-722B-9E3B-3F2C853E52C5</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>6980E60F-0EF1-C560-CE3F-693241D7A07D</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>32F18FBF-3E70-D83B-A3AC-050655EC6C27</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

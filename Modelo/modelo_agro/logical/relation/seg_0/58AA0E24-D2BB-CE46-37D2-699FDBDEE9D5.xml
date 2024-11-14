@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="t_mda_refinamento_cultura_t_mda_cultura" directorySegmentName="seg_0" id="58AA0E24-D2BB-CE46-37D2-699FDBDEE9D5">
+<createdBy>Fabio</createdBy>
+<createdTime>2024-11-13 14:29:15 UTC</createdTime>
+<ownerDesignName>modelo_agro</ownerDesignName>
+<engineerTo>
+<item key="CF40CE21-C775-5DCE-0DDA-EE919511222F" value="true"/>
+</engineerTo>
+<sourcePk>EC26B7AB-4CFA-C0A1-1584-74EA99B5CDE2</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>93B203B9-BBDD-C89E-E928-14C1972338E7</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>B78D3301-2AFA-9BEF-D83B-344D30841E5A</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

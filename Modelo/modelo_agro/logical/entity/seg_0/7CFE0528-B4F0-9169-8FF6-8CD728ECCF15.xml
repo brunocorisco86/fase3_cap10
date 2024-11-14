@@ -1,0 +1,61 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="7CFE0528-B4F0-9169-8FF6-8CD728ECCF15" name="t_mda_regiao">
+<createdBy>Fabio</createdBy>
+<createdTime>2024-11-13 13:10:24 UTC</createdTime>
+<ownerDesignName>modelo_agro</ownerDesignName>
+<engineerTo>
+<item key="CF40CE21-C775-5DCE-0DDA-EE919511222F" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cd_regiao" id="0472A560-AC3D-FA32-1763-777B5B6715EB">
+<createdBy>Fabio</createdBy>
+<createdTime>2024-11-13 13:14:41 UTC</createdTime>
+<ownerDesignName>modelo_agro</ownerDesignName>
+<engineerTo>
+<item key="CF40CE21-C775-5DCE-0DDA-EE919511222F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_regiao" id="DAC16FCC-A802-500B-665B-5E0C971B973F">
+<createdBy>Fabio</createdBy>
+<createdTime>2024-11-13 13:14:45 UTC</createdTime>
+<ownerDesignName>modelo_agro</ownerDesignName>
+<engineerTo>
+<item key="CF40CE21-C775-5DCE-0DDA-EE919511222F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="BF62A869-D232-636C-1D40-5D7F7288F0B1" name="cd_regiao_pk">
+<createdBy>Fabio</createdBy>
+<createdTime>2024-11-13 13:23:14 UTC</createdTime>
+<ownerDesignName>modelo_agro</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="CF40CE21-C775-5DCE-0DDA-EE919511222F" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>0472A560-AC3D-FA32-1763-777B5B6715EB</newElementsIDs>
+<usedAttributes>
+<attributeRef>0472A560-AC3D-FA32-1763-777B5B6715EB</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

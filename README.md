@@ -26,44 +26,87 @@
 
 ## 📜 Descrição
 
-*Descreva seu projeto com base no texto do PBL (até 600 palavras)*
+# Projeto: Modelo de Dados para Análise da Produção Agrícola no Brasil
 
+### Objetivo
+Este modelo de dados fornece uma base para realizar consultas analíticas e gerar insights sobre a produção agrícola por região e cultura no Brasil. Ele visa apoiar estudos econômicos, planejamentos estratégicos e a tomada de decisões no setor agroindustrial.
+
+### Descrição
+Este projeto implementa um modelo de dados relacional voltado para a consulta e análise de dados públicos sobre a produção agrícola no Brasil, com recorte nas principais culturas de cereais, leguminosas, oleaginosas, cana-de-açúcar e café. A proposta é estruturar dados históricos dos últimos cinco anos em um formato que permita análises segmentadas por Unidade Federativa (UF), oferecendo suporte à tomada de decisão e estudos econômicos no setor agrícola.
+
+### Estrutura dos Dados
+Os dados foram obtidos do sistema SIDRA do IBGE e estão distribuídos em duas categorias principais:
+1. **Culturas Temporárias (Tabela 1612)**: Dados de área plantada, área colhida, quantidade produzida, rendimento médio e valor de produção.
+2. **Culturas Permanentes (Tabela 1613)**: Informações sobre área destinada à colheita, área colhida, quantidade produzida e valor da produção.
+
+As principais culturas selecionadas para análise incluem amendoim, arroz, café, milho, soja, entre outras relevantes para o setor agrícola.
+
+### Entidades e Relacionamentos
+Foram desenvolvidas diversas entidades para assegurar a integridade dos dados e possibilitar uma análise estruturada. As principais entidades incluem:
+- **tb_mda_producao**: Armazena os indicadores de plantio e colheita por cultura e UF.
+- **t_mda_produtividade**: Armazena dados sobre produtividade e valor de produção.
+- **t_mda_calendario**: Contém o valor de "ano", repetido nas tabelas de culturas temporárias e permanentes.
+- **t_mda_cultura** e **t_mda_refinamento_cultura**: Organizam os valores relacionados às culturas e refinamentos específicos de cada produto agrícola.
+- **t_mda_regiao** e **t_mda_unidade_federacao**: Estruturam os dados por região e UF, permitindo análises geográficas.
+- **t_mda_unidade_medida**: Isola as diferentes unidades de medida, garantindo que novos indicadores possam ser adicionados sem comprometer o modelo atual.
+
+### Fontes de Dados
+O modelo foi estruturado com dados provenientes de duas fontes principais:
+- **IBGE SIDRA**:
+  - **Tabela 1612**: Produção Agrícola Municipal para culturas temporárias.
+  - **Tabela 1613**: Produção Agrícola Municipal para culturas permanentes.
+- **IBGE Áreas Territoriais**:
+  - Divisões territoriais do Brasil, por grandes regiões e unidades da federação.
+
+### Considerações Técnicas
+- Os dados foram extraídos em arquivos XLSX, sendo cada arquivo estruturado em uma tabela com colunas organizadas para consultas eficientes.
+- Abas de dados que não alimentam diretamente o modelo foram desconsideradas.
+- A entidade **t_mda_unidade_medida** foi desenvolvida para garantir flexibilidade na entrada de novos indicadores com diferentes unidades de medida.
+
+### Estrutura do Repositório
+O repositório está organizado para facilitar o uso e manutenção:
+- **Scripts de Criação e População do Banco de Dados**: Scripts SQL que criam e populam as tabelas com os dados brutos.
+- **Diagrama do Modelo ER**: Diagrama relacional que representa as entidades e seus relacionamentos.
+- **Documentação**: Explicações detalhadas sobre a estrutura de dados, o processo de modelagem e exemplos de consultas SQL.
+
+## Modelos Físicos e Lógicos
+
+Modelo Físico
+
+<p align="center">
+<img src="Modelo/modelo_fisico.png" alt="Modelo Físico" border="0" width=80% height=80%></a>
+</p>
+
+Modelo Lógico
+
+<p align="center">
+<img src="Modelo/modelo_logico.png" alt="Modelo Lógico" border="0" width=80% height=80%></a>
+</p>
 
 ## 📁 Estrutura de pastas
 
-Dentre os arquivos e pastas presentes na raiz do projeto, definem-se:
-
-- <b>.github</b>: Nesta pasta ficarão os arquivos de configuração específicos do GitHub que ajudam a gerenciar e automatizar processos no repositório.
-
 - <b>assets</b>: aqui estão os arquivos relacionados a elementos não-estruturados deste repositório, como imagens.
 
-- <b>config</b>: Posicione aqui arquivos de configuração que são usados para definir parâmetros e ajustes do projeto.
+- <b>Dados>: Base de dados do Sidra do IBGE.
 
-- <b>document</b>: aqui estão todos os documentos do projeto que as atividades poderão pedir. Na subpasta "other", adicione documentos complementares e menos importantes.
+- <b>Dicionario</b>: Dicionário com os principais termos adotados neste modelo.
 
-- <b>scripts</b>: Posicione aqui scripts auxiliares para tarefas específicas do seu projeto. Exemplo: deploy, migrações de banco de dados, backups.
+- <b>Modelo</b>: Posicione aqui scripts auxiliares para tarefas específicas do seu projeto. Exemplo: deploy, migrações de banco de dados, backups.
 
-- <b>src</b>: Todo o código fonte criado para o desenvolvimento do projeto ao longo das 7 fases.
+- <b>SQL</b>: Arquivos DMD e DDL de configuração de banco de dados.
 
 - <b>README.md</b>: arquivo que serve como guia e explicação geral sobre o projeto (o mesmo que você está lendo agora).
 
-## 🔧 Como executar o código
+## Arquivos Importantes
 
-*Acrescentar as informações necessárias sobre pré-requisitos (IDEs, serviços, bibliotecas etc.) e instalação básica do projeto, descrevendo eventuais versões utilizadas. Colocar um passo a passo de como o leitor pode baixar o seu código e executá-lo a partir de sua máquina ou seu repositório. Considere a explicação organizada em fase.*
+- **Documentação do MER**: Detalhar a criação do modelo de dados para relacionamento e consulta de dados
+públicos de plantios por UF no brasil.
 
+  - [DOCUMENTACAO_MER.pdf](DOCUMENTACAO_MER.pdf)
+  
+- **Modelo MER**: Arquivo de configuração extraído do Oracle SQL Developer
+  - [modelo_agro.dmd](modelo_agro.dmd)
 
-## 🗃 Histórico de lançamentos
-
-* 0.5.0 - XX/XX/2024
-    * 
-* 0.4.0 - XX/XX/2024
-    * 
-* 0.3.0 - XX/XX/2024
-    * 
-* 0.2.0 - XX/XX/2024
-    * 
-* 0.1.0 - XX/XX/2024
-    *
 
 ## 📋 Licença
 

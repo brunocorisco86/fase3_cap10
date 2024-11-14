@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="6BFB3092-0919-D2EC-BF8E-401B5DBE9862" containerWithKeyObject="9DBE6C9C-332D-BA20-303E-8925C5084749" localFKIndex="9E718041-3A5D-C3BD-46A3-23B91F9A6AB6" name="t_mda_produtividade_t_mda_cultura_FK">
+<createdBy>Fabio</createdBy>
+<createdTime>2024-11-13 15:17:38 UTC</createdTime>
+<generatorID>E5085D56-5BC9-E442-A125-04DEDA6ADBF1</generatorID>
+<ownerDesignName>modelo_agro</ownerDesignName>
+<referredTableLongName>t_mda_cultura</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>76D5B160-3775-7EB4-7616-4379B3A29E79</referredTableID>
+<keyObject>B409C5E5-FF1E-67DC-D5F2-F5EC541B9D72</keyObject>
+<referredKeyID>B409C5E5-FF1E-67DC-D5F2-F5EC541B9D72</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>cd_cultura</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
