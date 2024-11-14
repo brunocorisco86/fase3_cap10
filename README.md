@@ -87,7 +87,7 @@ Modelo Lógico
 
 - <b>assets</b>: aqui estão os arquivos relacionados a elementos não-estruturados deste repositório, como imagens.
 
-- <b>Dados>: Base de dados do Sidra do IBGE.
+- <b>Dados</b>: Base de dados do Sidra do IBGE.
 
 - <b>Dicionario</b>: Dicionário com os principais termos adotados neste modelo.
 
