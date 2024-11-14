@@ -105,10 +105,10 @@ públicos de plantios por UF no brasil.
 - **Modelo MER**: Arquivo de configuração extraído do Oracle SQL Developer
   - [modelo_agro.dmd](Modelo/modelo_agro.dmd)
   
-- **Modelo DDL**: Arquivo de configuração extraído do Oracle SQL Developer
+- **Modelo DDL**: Comandos para criar as tabelas
   - [DDL.sql](SQL/DDL.sql)
   
-- **Modelo DML**: Arquivo de configuração extraído do Oracle SQL Developer
+- **Modelo DML**: Comandos para realizar queries nos dados
   - [DML.sql](SQL/DML.sql)
 
 
