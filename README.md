@@ -6,7 +6,9 @@
 
 <br>
 
-# Nome do projeto
+## 📜 Nome do Projeto
+
+# Modelo de Dados para Análise da Produção Agrícola no Brasil
 
 ## Nome do grupo
 
@@ -23,10 +25,6 @@
 ### Coordenador(a)
 - <a href="https://www.linkedin.com/in/profandregodoi/">André Godoi</a>
 
-
-## 📜 Descrição
-
-# Projeto: Modelo de Dados para Análise da Produção Agrícola no Brasil
 
 ### Objetivo
 Este modelo de dados fornece uma base para realizar consultas analíticas e gerar insights sobre a produção agrícola por região e cultura no Brasil. Ele visa apoiar estudos econômicos, planejamentos estratégicos e a tomada de decisões no setor agroindustrial.
