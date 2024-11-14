@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="t_mda_calendario_t_mda_plantio" directorySegmentName="seg_0" id="9AE89307-A3F0-C535-7521-75D20FCAC2C0">
+<createdBy>Fabio</createdBy>
+<createdTime>2024-11-13 14:12:23 UTC</createdTime>
+<ownerDesignName>modelo_agro</ownerDesignName>
+<engineerTo>
+<item key="CF40CE21-C775-5DCE-0DDA-EE919511222F" value="true"/>
+</engineerTo>
+<sourcePk>C2BA6585-96C8-587B-66B2-E979682291A5</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>A6003E82-35A7-17DB-E5CC-4C9CC1B3AFA6</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>32F18FBF-3E70-D83B-A3AC-050655EC6C27</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

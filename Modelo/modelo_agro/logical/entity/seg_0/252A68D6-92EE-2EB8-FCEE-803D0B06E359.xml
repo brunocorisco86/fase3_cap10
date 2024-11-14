@@ -1,0 +1,88 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="252A68D6-92EE-2EB8-FCEE-803D0B06E359" name="t_mda_unidade_federacao">
+<createdBy>Fabio</createdBy>
+<createdTime>2024-11-13 12:39:31 UTC</createdTime>
+<ownerDesignName>modelo_agro</ownerDesignName>
+<engineerTo>
+<item key="B249603D-1232-7C61-5E8D-88B81D43C829" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cd_uf" id="5AFE0A83-7590-E403-819F-419B9A67DB31">
+<createdBy>Fabio</createdBy>
+<createdTime>2024-11-13 13:13:51 UTC</createdTime>
+<ownerDesignName>modelo_agro</ownerDesignName>
+<engineerTo>
+<item key="B249603D-1232-7C61-5E8D-88B81D43C829" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_regiao" id="DC7BDBCC-DDB6-DB36-E357-CF6AB674F864">
+<createdBy>Fabio</createdBy>
+<createdTime>2024-11-13 13:28:45 UTC</createdTime>
+<generatorID>1376B624-E5F6-4F47-8362-884161A78C0C</generatorID>
+<ownerDesignName>modelo_agro</ownerDesignName>
+<engineerTo>
+<item key="B249603D-1232-7C61-5E8D-88B81D43C829" value="true"/>
+</engineerTo>
+<referedAttribute>0472A560-AC3D-FA32-1763-777B5B6715EB</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="sg_uf" id="A674F35E-6EE4-D585-D940-FCE4C2B40898">
+<createdBy>Fabio</createdBy>
+<createdTime>2024-11-13 13:14:01 UTC</createdTime>
+<ownerDesignName>modelo_agro</ownerDesignName>
+<engineerTo>
+<item key="B249603D-1232-7C61-5E8D-88B81D43C829" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>2</dataTypeSize>
+<ownDataTypeParameters>2,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_uf" id="DB89DEF9-8925-51CF-FC09-5CE6A38FD1F7">
+<createdBy>Fabio</createdBy>
+<createdTime>2024-11-13 13:14:12 UTC</createdTime>
+<ownerDesignName>modelo_agro</ownerDesignName>
+<engineerTo>
+<item key="B249603D-1232-7C61-5E8D-88B81D43C829" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="3E3928F9-1B5B-BCFE-2B3B-D6179BC5AE8F" name="cd_uf_pk">
+<createdBy>Fabio</createdBy>
+<createdTime>2024-11-13 13:52:54 UTC</createdTime>
+<ownerDesignName>modelo_agro</ownerDesignName>
+<engineerTo>
+<item key="B249603D-1232-7C61-5E8D-88B81D43C829" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>5AFE0A83-7590-E403-819F-419B9A67DB31</newElementsIDs>
+<usedAttributes>
+<attributeRef>5AFE0A83-7590-E403-819F-419B9A67DB31</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

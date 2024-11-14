@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="91847C10-8987-A84B-D4CB-2F8EF0B21AEB" containerWithKeyObject="9DBE6C9C-332D-BA20-303E-8925C5084749" localFKIndex="5D453362-138F-2480-47FB-C065AFDCD5C9" name="t_mda_produtividade_t_mda_unidade_medida_FKv2">
+<createdBy>Fabio</createdBy>
+<createdTime>2024-11-13 15:17:38 UTC</createdTime>
+<generatorID>C8C387D7-0B99-413E-8F91-3B674CBF735D</generatorID>
+<ownerDesignName>modelo_agro</ownerDesignName>
+<referredTableLongName>t_mda_unidade_medida</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>A051E958-3555-5402-03B4-398B4032A138</referredTableID>
+<keyObject>110B0D66-DB60-7F2D-EF6D-60E70C743CFC</keyObject>
+<referredKeyID>110B0D66-DB60-7F2D-EF6D-60E70C743CFC</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>cd_unidade_medida</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

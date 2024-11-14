@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="t_cultura_t_produtividade" directorySegmentName="seg_0" id="E5085D56-5BC9-E442-A125-04DEDA6ADBF1">
+<createdBy>Fabio</createdBy>
+<createdTime>2024-11-13 15:04:28 UTC</createdTime>
+<ownerDesignName>modelo_agro</ownerDesignName>
+<engineerTo>
+<item key="F569F182-C8C8-2EA1-5847-9D826DADFF59" value="true"/>
+</engineerTo>
+<sourcePk>8F939678-27DB-7C1E-5A51-3639CCB3D6F4</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>B78D3301-2AFA-9BEF-D83B-344D30841E5A</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>C0231A27-9537-950A-8B86-2DE09778F393</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="7C1552F7-8A38-CBFE-9CB9-6108492E65FB" containerWithKeyObject="66A29006-D9A4-1589-9369-B5A7C7781905" localFKIndex="6C3B0B77-1864-4B70-8B34-004E016F8185" name="tb_mda_producao_t_mda_calendario_FK">
+<createdBy>Fabio</createdBy>
+<createdTime>2024-11-13 15:17:38 UTC</createdTime>
+<generatorID>9AE89307-A3F0-C535-7521-75D20FCAC2C0</generatorID>
+<ownerDesignName>modelo_agro</ownerDesignName>
+<referredTableLongName>t_mda_calendario</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>3DFA4D53-ECF5-B22A-0FD5-8BE8ED61DCF9</referredTableID>
+<keyObject>B953919F-58A2-CF43-37E3-E1965777192C</keyObject>
+<referredKeyID>B953919F-58A2-CF43-37E3-E1965777192C</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>cd_ano</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

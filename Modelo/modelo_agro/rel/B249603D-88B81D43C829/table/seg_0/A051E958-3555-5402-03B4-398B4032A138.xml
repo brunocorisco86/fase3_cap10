@@ -1,0 +1,50 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A051E958-3555-5402-03B4-398B4032A138" name="t_mda_unidade_medida">
+<createdBy>Fabio</createdBy>
+<createdTime>2024-11-13 15:17:38 UTC</createdTime>
+<generatorID>D7FD8942-7377-67EB-E528-968551CC5F61</generatorID>
+<ownerDesignName>modelo_agro</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cd_unidade_medida" id="F96AC709-8A4F-201B-29F5-C4E3F8969C5A">
+<createdBy>Fabio</createdBy>
+<createdTime>2024-11-13 15:17:38 UTC</createdTime>
+<generatorID>FB277921-2451-7ABD-D219-4713089CCC9A</generatorID>
+<ownerDesignName>modelo_agro</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ds_unidade_medida" id="FFAD1B28-43E9-5555-11B5-3E4F4920C86F">
+<createdBy>Fabio</createdBy>
+<createdTime>2024-11-13 15:17:38 UTC</createdTime>
+<generatorID>B509720F-D2E4-9561-E887-7632907CE20A</generatorID>
+<ownerDesignName>modelo_agro</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="110B0D66-DB60-7F2D-EF6D-60E70C743CFC" name="t_mda_unidade_medida_PK">
+<createdBy>Fabio</createdBy>
+<createdTime>2024-11-13 15:17:38 UTC</createdTime>
+<generatorID>61F80119-FFE5-20E1-D914-BB09354E2DE7</generatorID>
+<ownerDesignName>modelo_agro</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F96AC709-8A4F-201B-29F5-C4E3F8969C5A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

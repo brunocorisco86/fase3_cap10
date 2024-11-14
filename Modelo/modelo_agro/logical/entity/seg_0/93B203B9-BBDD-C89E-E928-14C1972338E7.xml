@@ -1,0 +1,61 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="93B203B9-BBDD-C89E-E928-14C1972338E7" name="t_mda_refinamento_cultura">
+<createdBy>Fabio</createdBy>
+<createdTime>2024-11-13 13:00:52 UTC</createdTime>
+<ownerDesignName>modelo_agro</ownerDesignName>
+<engineerTo>
+<item key="F569F182-C8C8-2EA1-5847-9D826DADFF59" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cd_refinamento_cultura" id="709EA2FF-16CD-AC9E-04F8-6E92FDA1D0DD">
+<createdBy>Fabio</createdBy>
+<createdTime>2024-11-13 14:28:20 UTC</createdTime>
+<ownerDesignName>modelo_agro</ownerDesignName>
+<engineerTo>
+<item key="F569F182-C8C8-2EA1-5847-9D826DADFF59" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_refinamento_cultura" id="9916B9C4-D139-E8DB-ABDC-9B64B6157E82">
+<createdBy>Fabio</createdBy>
+<createdTime>2024-11-13 14:28:33 UTC</createdTime>
+<ownerDesignName>modelo_agro</ownerDesignName>
+<engineerTo>
+<item key="F569F182-C8C8-2EA1-5847-9D826DADFF59" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="EC26B7AB-4CFA-C0A1-1584-74EA99B5CDE2" name="cd_refinamento_cultura_pk">
+<createdBy>Fabio</createdBy>
+<createdTime>2024-11-13 14:28:44 UTC</createdTime>
+<ownerDesignName>modelo_agro</ownerDesignName>
+<engineerTo>
+<item key="F569F182-C8C8-2EA1-5847-9D826DADFF59" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>709EA2FF-16CD-AC9E-04F8-6E92FDA1D0DD</newElementsIDs>
+<usedAttributes>
+<attributeRef>709EA2FF-16CD-AC9E-04F8-6E92FDA1D0DD</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

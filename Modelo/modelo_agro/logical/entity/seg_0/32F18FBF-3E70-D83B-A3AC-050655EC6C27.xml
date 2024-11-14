@@ -1,0 +1,132 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="32F18FBF-3E70-D83B-A3AC-050655EC6C27" name="tb_mda_producao">
+<createdBy>Fabio</createdBy>
+<createdTime>2024-11-13 14:10:28 UTC</createdTime>
+<ownerDesignName>modelo_agro</ownerDesignName>
+<engineerTo>
+<item key="B249603D-1232-7C61-5E8D-88B81D43C829" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cd_producao" id="6601587C-6840-D725-860E-ECC2A5AA049A">
+<createdBy>Fabio</createdBy>
+<createdTime>2024-11-13 14:30:20 UTC</createdTime>
+<ownerDesignName>modelo_agro</ownerDesignName>
+<engineerTo>
+<item key="B249603D-1232-7C61-5E8D-88B81D43C829" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_etapa_producao" id="F4E59FAA-57D7-CFDF-0A7A-F24423E875B9">
+<createdBy>Fabio</createdBy>
+<createdTime>2024-11-13 14:26:17 UTC</createdTime>
+<generatorID>4DFE195C-F4F9-6189-D9FC-CBF14D24AD23</generatorID>
+<ownerDesignName>modelo_agro</ownerDesignName>
+<engineerTo>
+<item key="B249603D-1232-7C61-5E8D-88B81D43C829" value="true"/>
+</engineerTo>
+<referedAttribute>90C43D8B-95ED-A8A8-20FE-A3B39DACFF1A</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_ano" id="F4D5C8B4-DE22-21A7-4B54-F39E07CB46A6">
+<createdBy>Fabio</createdBy>
+<createdTime>2024-11-13 14:12:23 UTC</createdTime>
+<generatorID>9AE89307-A3F0-C535-7521-75D20FCAC2C0</generatorID>
+<ownerDesignName>modelo_agro</ownerDesignName>
+<engineerTo>
+<item key="B249603D-1232-7C61-5E8D-88B81D43C829" value="true"/>
+</engineerTo>
+<referedAttribute>6C927E32-145E-0111-0724-CB65F483D178</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_uf" id="980857CE-6933-279B-1807-78DAFB6CA50E">
+<createdBy>Fabio</createdBy>
+<createdTime>2024-11-13 14:11:43 UTC</createdTime>
+<generatorID>D34F77BE-2850-65B1-16FB-A546D0282B39</generatorID>
+<ownerDesignName>modelo_agro</ownerDesignName>
+<engineerTo>
+<item key="B249603D-1232-7C61-5E8D-88B81D43C829" value="true"/>
+</engineerTo>
+<referedAttribute>5AFE0A83-7590-E403-819F-419B9A67DB31</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_cultura" id="3C2F6F4D-FB14-0B54-B9FA-B5CAA333CC70">
+<createdBy>Fabio</createdBy>
+<createdTime>2024-11-13 14:29:57 UTC</createdTime>
+<generatorID>2705B2BB-8266-25B4-BABD-9F8920580D23</generatorID>
+<ownerDesignName>modelo_agro</ownerDesignName>
+<engineerTo>
+<item key="B249603D-1232-7C61-5E8D-88B81D43C829" value="true"/>
+</engineerTo>
+<referedAttribute>B9C7E74D-39D8-691A-BA8F-F1411AFB274A</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_unidade_medida" id="D2082D26-A814-9408-51C6-D17B7B825216">
+<createdBy>Fabio</createdBy>
+<createdTime>2024-11-13 14:36:19 UTC</createdTime>
+<generatorID>9B882988-F398-95DB-1910-B8F60F686575</generatorID>
+<ownerDesignName>modelo_agro</ownerDesignName>
+<engineerTo>
+<item key="B249603D-1232-7C61-5E8D-88B81D43C829" value="true"/>
+</engineerTo>
+<referedAttribute>FB277921-2451-7ABD-D219-4713089CCC9A</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="vl_producao" id="4E48F211-D58C-56CC-1FC7-6174515011A0">
+<createdBy>Fabio</createdBy>
+<createdTime>2024-11-13 14:31:50 UTC</createdTime>
+<ownerDesignName>modelo_agro</ownerDesignName>
+<engineerTo>
+<item key="B249603D-1232-7C61-5E8D-88B81D43C829" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>18</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,18,2</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="43A2EAD5-611A-A1CB-BF7E-34674960440B" name="cd_producao_pk">
+<createdBy>Fabio</createdBy>
+<createdTime>2024-11-13 14:30:43 UTC</createdTime>
+<ownerDesignName>modelo_agro</ownerDesignName>
+<engineerTo>
+<item key="B249603D-1232-7C61-5E8D-88B81D43C829" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>6601587C-6840-D725-860E-ECC2A5AA049A</newElementsIDs>
+<usedAttributes>
+<attributeRef>6601587C-6840-D725-860E-ECC2A5AA049A</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
