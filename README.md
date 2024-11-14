@@ -105,7 +105,7 @@ públicos de plantios por UF no brasil.
   - [DOCUMENTACAO_MER.pdf](DOCUMENTACAO_MER.pdf)
   
 - **Modelo MER**: Arquivo de configuração extraído do Oracle SQL Developer
-  - [modelo_agro.dmd](modelo_agro.dmd)
+  - [modelo_agro.dmd](Modelo/modelo_agro.dmd)
 
 
 ## 📋 Licença
